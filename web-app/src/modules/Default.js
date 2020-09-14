@@ -8,7 +8,7 @@ return(
  <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          En esta pag se desarrollara el contenido para kimera...
+          Estamos Trabajando para brindarle un mejor servicio...
         </p>
         <a
           className="App-link"

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './modules/Home.js'
 import Default from './modules/Default.js'
+import KimeraInfo from './modules/KimeraInfo.js'
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
                 <Switch>
                     <Route path={"/home"}
                            component={Home}
+                    />
+                    <Route path={"/info"}
+                           component={KimeraInfo}
                     />
                     <Route component={Default}
                     />
