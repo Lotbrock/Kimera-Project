@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import NavBar from './modules/NavBar.js'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Home from './modules/Home.js'
+import Default from './modules/Default.js'
 
 function App() {
+
   return (
+  <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          En esta pag se desarrollara el contenido para kimera...
-        </p>
-        <a
-          className="App-link"
-          href="http://kimera.com/data/multimedia/multimedia.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Se trabajará Incas
-        </a>
-      </header>
+<div>
+    <NavBar/>
+</div>
+    <div>
+                <Switch>
+                    <Route path={"/home"}
+                           component={Home}
+                    />
+                    <Route component={Default}
+                    />
+                </Switch>
+          </div>
     </div>
+
+    </BrowserRouter>
   );
 }
 
