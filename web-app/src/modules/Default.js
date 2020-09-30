@@ -1,11 +1,14 @@
 import React from 'react'
 import '../App.css';
 import logo from '../logo.svg';
+import Scene from "../assets/Mordhau.mp4";
+import VideoPop from "react-video-pop";
 const Default = (props) => {
 
 return(
-<>
- <header className="App-header">
+<div>
+    <div>
+         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Estamos Trabajando para brindarle un mejor servicio...
@@ -18,8 +21,9 @@ return(
         >
           Se trabajará Incas
         </a>
-      </header>
-      </>
+         </header>
+    </div>
+      </div>
       );
       }
 export default Default;
