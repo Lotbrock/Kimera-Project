@@ -1,7 +1,6 @@
 import React from 'react'
 import '../App.css';
 import logo from '../logo.svg';
-import Scene from "../assets/Mordhau.mp4";
 import VideoPop from "react-video-pop";
 const Default = (props) => {
 
