@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Scene from '../assets/Mordhau.mp4';
+import Scene from '../assets/VideoPrueba.mp4';
 import VideoPop from 'react-video-pop';
 
 const Video = (props) =>{

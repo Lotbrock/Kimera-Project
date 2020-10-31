@@ -2,7 +2,7 @@ import React from 'react'
 import {Jumbotron, Button,Row, Col} from 'reactstrap'
 import '../App.css';
 import VideoPop from "react-video-pop";
-import Scene from "../assets/Mordhau.mp4";
+import Scene from '../assets/VideoPrueba.mp4';
 
 export default class Home extends React.Component {
     render() {
