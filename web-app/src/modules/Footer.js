@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Footer.css";
 import karisma from"../assets/karisma.png"
 const Footer = (props) =>{
@@ -6,7 +6,7 @@ return(
 <>
 <footer className="footer">
      <div className="main-footer">
-        <div className="container">
+        <div className="container-fluid col-md-11">
           <div className="row">
             {/* Column1 */}
             <div className="col">
