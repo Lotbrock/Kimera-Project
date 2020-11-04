@@ -21,7 +21,6 @@ import logo from "../assets/logo.png"
 const NavBar = (props) =>{
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-
 return(
  <div>
       <Navbar color="danger" light expand="md">
@@ -30,32 +29,35 @@ return(
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto"  navbar>
-            <NavItem className="col-6">
+            <NavItem className="col-4">
               <NavLink className="text-white" href="/home"><img src={choza} width="38" alt="" className="d-inline-block align-middle mr-2">
                                                   </img>Inicio</NavLink>
             </NavItem>
-            <NavItem className="col-6">
+            <NavItem className="col-4">
               <NavLink className="text-white" href="/historia"><img src={inca} width="38" alt="" className="d-inline-block align-middle mr-2">
                                                                                          </img>Historia</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret className="text-white">
+              <DropdownToggle nav caret className="text-white col-4">
                 <img src={control} width="38" alt="" className="d-inline-block align-middle mr-2">
                                                                   </img>Aprende y Diviértete
               </DropdownToggle>
               <DropdownMenu right >
-                <DropdownItem href="/puzzle">
-                  Puzzle
-                </DropdownItem>
-                <DropdownItem href="/memoria">
-                  Memoria
+                <DropdownItem href="/games">
+                  Ver Juegos
                 </DropdownItem>
                 <DropdownItem divider  />
+                 <DropdownItem href="/puzzle">
+                                  Puzzle
+                                </DropdownItem>
+                                <DropdownItem href="/memoria">
+                                  Memoria
+                                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
 
-          <NavbarText>
+          <NavbarText >
                 <NavLink href="/manual" className="text-white"><img src={orientar} width="38" alt="" className="d-inline-block align-middle mr-2">
                                                                                                                                  </img>Ayuda</NavLink>
           </NavbarText>

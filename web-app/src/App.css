@@ -1,6 +1,16 @@
 .App {
   text-align: center;
 }
+.redonda{
+  border-radius: 50%;
+  -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+}
+.links { color: #454545; }
+.links:hover { color: #010B5F; }
 .Wrapper{
   position: relative;
   border-radius: 5px;
