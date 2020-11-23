@@ -1,17 +1,21 @@
 .App {
   text-align: center;
 }
-.redonda{
+.redonda {
   border-radius: 50%;
   -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
-.links { color: #454545; }
-.links:hover { color: #010B5F; }
-.Wrapper{
+.links {
+  color: #454545;
+}
+.links:hover {
+  color: #010b5f;
+}
+.Wrapper {
   position: relative;
   border-radius: 5px;
   width: 640px;
@@ -23,7 +27,7 @@
   left: 0;
   right: 0;
 }
-.Title{
+.Title {
   position: relative;
   text-align: center;
   background: #404b69;
@@ -77,4 +81,37 @@
 }
 .content-wrap {
   flex: 1;
+}
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+h1 {
+  margin: 0;
+}
+.board {
+  position: relative;
+  padding: 0;
+  size: 80%;
+}
+.tile {
+  position: absolute;
+  list-style: none;
+  background: #ec6f66;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+}
+button {
+  display: block;
+}
+.games-title {
+  font-family: "Indie Flower", cursive;
+  color: #ec6f66;
+  font-size: 70px;
+}
+.historia {
+  font-family: "Nerko One", cursive;
+  font-size: 35px;
 }

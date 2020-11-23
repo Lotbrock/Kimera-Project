@@ -95,7 +95,7 @@ const Games = () => {
             <Col md="6">
               <div className="row featurette ">
                 <div className="col-md-8 order-md-2">
-                  <Link to="/files/prueba.txt" target="_blank">
+                  <Link to="\files\MemoriaInca.ppsx" target="_blank">
                     {" "}
                     <h3 className="featurette-heading links">
                       Contenido Descargable 2

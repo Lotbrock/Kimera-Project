@@ -8,6 +8,7 @@ import Default from "./modules/Default.js";
 import Footer from "./modules/Footer.js";
 import KimeraInfo from "./modules/KimeraInfo.js";
 import Video from "./modules/Video";
+import PuzzleGame from "./modules/PuzzleGame.js";
 
 function App() {
   return (
@@ -21,11 +22,9 @@ function App() {
             <Switch>
               <Route path={"/home"} component={Home} />
               <Route path={"/info"} component={KimeraInfo} />
-
-              <Route path={"/video"} component={Video} />
-              <Route path={"/historia"} component={Home} />
+              <Route path={"/historia"} component={Video} />
               <Route path={"/games"} component={Games} />
-              <Route path={"/puzzle"} component={Games} />
+              <Route path={"/puzzle"} component={PuzzleGame} />
               <Route component={Default} />
             </Switch>
           </div>
