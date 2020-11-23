@@ -106,12 +106,12 @@ h1 {
 button {
   display: block;
 }
+.historia {
+  font-family: "Nerko One", cursive;
+  font-size: 35px;
+}
 .games-title {
   font-family: "Indie Flower", cursive;
   color: #ec6f66;
   font-size: 70px;
-}
-.historia {
-  font-family: "Nerko One", cursive;
-  font-size: 35px;
 }
